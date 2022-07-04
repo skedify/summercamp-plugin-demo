@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       <Example>
         <div ref={ref} className="skedify-plugin" id="skedify-plugin-wrapper"></div>
       </Example>
-      <Script src="http://localhost:3000/frontend/skedify-plugin.js" data-v2="true" />
+      <Script src="https://plugin-remix.k8s.skedify.io/frontend/skedify-plugin.js" data-v2="true" />
     </>
   );
 };
