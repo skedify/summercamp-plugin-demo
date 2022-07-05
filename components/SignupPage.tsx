@@ -252,9 +252,9 @@ export default function Example({ children }: { children: React.ReactNode }) {
       <main>
         {/* Side-by-side grid */}
         <div className="bg-white">
-          <div className="max-w-md px-4 py-24 mx-auto sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-md px-4 py-8 mx-auto sm:max-w-3xl sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="divide-y divide-warm-gray-200">
-              <section className="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contact-heading">
+              <section className="lg:grid lg:grid-cols-3 lg:gap-4" aria-labelledby="contact-heading">
                 <h2 id="contact-heading" className="text-2xl font-extrabold text-warm-gray-900 sm:text-3xl">
                   Get in touch
                 </h2>
