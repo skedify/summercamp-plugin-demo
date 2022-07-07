@@ -6,8 +6,7 @@ import Script from "next/script";
 import Example from "../components/SignupPage";
 
 const Home: NextPage = () => {
-  const URL =
-    "https://plugin-remix.k8s.skedify.io/frontend/schedule/timetable?config.browser.timeZone=Europe%2FOslo&subjectId=24&meetingType=office&officeId=109&config.flow=TQC&agentId=545";
+  const URL = "https://plugin-remix.k8s.skedify.io/frontend/schedule/subject?config.flow=SOMTQC&agentId=545"
   return (
     <>
       <Head>
@@ -19,7 +18,6 @@ const Home: NextPage = () => {
       </Example>
     </>
   );
-
 };
 
 export default Home;
