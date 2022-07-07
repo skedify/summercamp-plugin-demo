@@ -10,7 +10,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>New Plugin App</title>
+        <title>Meeting with Agent</title>
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Example>

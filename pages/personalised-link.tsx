@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>New Plugin App</title>
+        <title>Personalised Link</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Example>
